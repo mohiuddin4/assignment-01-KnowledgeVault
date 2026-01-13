@@ -1,7 +1,7 @@
 
 /* Common style */
 *{
-    margin: 0 auto;
+    margin: 0;
 }
 .btn{
     background-color: #30B868;
@@ -107,4 +107,63 @@ line-height: 82px;
 }
 .btn-group .btn{
   margin: 0 8px;
+}
+
+.Notes-Section{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.Notes-Section .Notes-info{
+    margin-top: 75PX;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.Notes-Section .Notes-info h2{
+    color: #001931;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.Notes-Section .Notes-info p{
+    color: #627382;
+}
+.Notes-card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    
+
+}
+
+.card{
+   
+    width: 322px;
+    height: 300px;
+    padding: 0 25PX;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 70px;
+}
+.card img{
+    margin-top: 70px;
+    width: 27px;
+    height: 30px;
+    background:#F95555;
+    color: #FFFFFF;
+    padding: 12px 15px;
+    border-radius: 100%;
+
+}
+.card h3{
+ color: #001931;
+ font-size: 24px;
+ font-weight: 600;
+ margin: 16px 0;
+
+}
+.card p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
 }
