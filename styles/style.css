@@ -12,6 +12,7 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
+
 }
 .btn:hover{
     background-color: #FFFFFF;
@@ -33,6 +34,7 @@
     color: #30B868;
     border:1px solid #30B868;
 }
+
 .nav-section{
     display: flex;
     justify-content: space-between;
@@ -80,6 +82,7 @@
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 16px ;
+    
 
 }
 .btn-hero:hover{
@@ -205,3 +208,30 @@ line-height: 82px;
     gap: 5px;
     margin-left: -40px;
 }
+.Early-Access-Section{
+    max-width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.Early-Access-Section .early-access h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.Early-Access-Section .early-access button{
+    margin-bottom: 16px;
+}
+.Early-Access-Section .early-access p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom:24px;
+}
+
