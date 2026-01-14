@@ -80,7 +80,6 @@
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 16px ;
-  
 
 }
 .btn-hero:hover{
@@ -143,7 +142,7 @@ line-height: 82px;
     align-items: center;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    margin-bottom: 70px;
+    margin-bottom: 120px;
 }
 .card img{
     margin-top: 70px;
@@ -166,4 +165,43 @@ line-height: 82px;
     color: #627382;
     font-size: 16px;
     line-height: 20px;
+}
+.brain{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+.brain .barin-img img{
+    width: 600px;
+    height: 600px;
+}
+.brain-info{
+    padding: 102px 200px 102px 0px;
+    
+}
+.brain-info h4{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.brain-info h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    
+}
+.brain-info p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.brain-info ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: -40px;
 }
